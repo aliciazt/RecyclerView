@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+<!--ESTE ES EL XML PARA EL FRAGMENT-->
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ICONOS COMUNES EN EL INTERNET"
+    android:textSize="20dp"
+    android:gravity="center"
+    android:background="@color/colorAccent"
+    android:layout_marginBottom="40dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recy1">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
